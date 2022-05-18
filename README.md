@@ -30,5 +30,8 @@ while a != "s":
 s.stop()
 ```
 
-Code of the `Streamer` - class is self explanatory (i hope), read it to learn more.
+Code of the `Streamer` class is self explanatory (i hope), read it to learn more.
 Feel free to ask if there are questions, and please tell me if there are any bugs.
+
+---
+If you get an error saying `KeyError: 'dislike_count'`, comment out the line where the error occurred (it should be `self._dislikes = self._ydl_info['dislike_count']`).
